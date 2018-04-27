@@ -91,7 +91,7 @@ testButton=()=>{
             selected={this.state.selectedDate}
             onChange={this.handleChange}
             minDate={moment()}
-            monthsShown={2}
+            monthsShown={3}
           />
           <button>Add Date</button>
         </form>
