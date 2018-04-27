@@ -82,7 +82,7 @@ class GoogleLogin extends Component{
             <div>
                 {!this.state.googleName ?
                   <div> 
-                    <button className='btn-danger' onClick={ () => this.googleLogin() }>Login with Google, plz</button>
+                    <button className='btn-danger' onClick={ () => this.googleLogin() }>Login with Google</button>
                 </div> : null
                  } 
                    <Blog googleName={this.state.googleName} />   
